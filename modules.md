@@ -1,3 +1,7 @@
+---
+title: Programa Semanál – Sistema Intelijénsia Artifisiál
+---
+
 ## Progama Semanal
 | Sesaun | Tópiku | Objetivu | Rezultadu Esperadu| 
 | --- | --- | --- | --- | 

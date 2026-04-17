@@ -1,3 +1,7 @@
+---
+title: Silabus – Sistema Intelijénsia Artifisiál
+---
+
 ## Informação da Unidade Curricular
 
 <!-- - **Designação da Unidade Curricular:** Sistemas de Inteligência Artificial -->
