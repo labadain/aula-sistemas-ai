@@ -45,6 +45,7 @@ jobs:
           if out_root.exists():
             shutil.rmtree(out_root)
           out_root.mkdir(parents=True, exist_ok=True)
+          (out_root / '.nojekyll').write_text('', encoding='utf-8')
 
           skip_parts = {'.git', '.github', '_site'}
 
