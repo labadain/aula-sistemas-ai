@@ -138,18 +138,14 @@ a {
 
 .content-flow h1 {
   margin-bottom: 1.25rem;
-  padding-bottom: 0.6rem;
   font-size: clamp(2.4rem, 4.4vw, 4rem);
   line-height: 0.98;
-  border-bottom: 1px solid var(--line);
 }
 
 .content-flow h2 {
   margin-top: 2rem;
-  padding-top: 1.5rem;
   font-size: clamp(1.5rem, 2vw, 2rem);
   line-height: 1.05;
-  border-top: 1px solid var(--line);
 }
 
 .content-flow h3 {
@@ -298,7 +294,7 @@ def page_template(
         <a class="site-title" href="{home_href}">Sistema Intelijénsia Artifisiál</a>
       </div>
       <nav class="top-nav" aria-label="Page navigation">
-        <a href="{home_href}">Home</a>
+        <a href="{home_href}">Varanda</a>
         <a href="{nav2_href}">{nav2_label}</a>
       </nav>
     </div>
@@ -379,7 +375,7 @@ def build_in_place() -> None:
         if path.stem == 'modules':
             nav2_label, nav2_href = 'Silabus', os.path.relpath(ROOT / 'syllabus.html', html_target.parent).replace(os.sep, '/')
         else:
-            nav2_label, nav2_href = 'Program', os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
+            nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
         html_target.write_text(
             page_template(path.stem, rendered, css_href, home_href, nav2_label, nav2_href),
             encoding='utf-8',

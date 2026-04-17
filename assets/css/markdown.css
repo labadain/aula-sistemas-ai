@@ -125,18 +125,14 @@ a {
 
 .content-flow h1 {
   margin-bottom: 1.25rem;
-  padding-bottom: 0.6rem;
   font-size: clamp(2.4rem, 4.4vw, 4rem);
   line-height: 0.98;
-  border-bottom: 1px solid var(--line);
 }
 
 .content-flow h2 {
   margin-top: 2rem;
-  padding-top: 1.5rem;
   font-size: clamp(1.5rem, 2vw, 2rem);
   line-height: 1.05;
-  border-top: 1px solid var(--line);
 }
 
 .content-flow h3 {
