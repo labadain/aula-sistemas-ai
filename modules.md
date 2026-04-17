@@ -1,7 +1,7 @@
 ## Progama Semanal
 | Sesaun | Tópiku | Objetivu | Rezultadu Esperadu| 
 | --- | --- | --- | --- | 
-| 1º | Introdusan, aprezentasaun programa ba unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Fó koñese ba estudante programa unidade kurrikulár durante semestre ida nian. | Estudante apár ho programa no dosente koñese di'ak liután estudante sira-nia kompetésia. | 
+| 1º | Introdusan, aprezentasaun programa ba unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Fó koñese ba estudante programa unidade kurrikulár durante semestre ida nian. | Estudante apár ho programa no dosente koñese di'ak liután estudante sira-nia kompeténsia. | 
 | 2º |  |  |  | 
 | 3º |  |  |  |
 | 4º |  |  |  | 
