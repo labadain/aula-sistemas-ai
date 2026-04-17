@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import html
 import os
+import re
 import shutil
 from pathlib import Path
 
@@ -270,6 +271,35 @@ def should_skip(path: Path) -> bool:
     return any(part in SKIP_PARTS for part in path.parts)
 
 
+def extract_page_title_and_body(md_text: str, fallback_title: str) -> tuple[str, str]:
+  body_text = md_text
+  front_matter_title: str | None = None
+
+  # Optional YAML front matter at the top of the file.
+  if md_text.startswith('---\n'):
+    end_idx = md_text.find('\n---\n', 4)
+    if end_idx != -1:
+      front_matter = md_text[4:end_idx]
+      body_text = md_text[end_idx + 5 :]
+      for line in front_matter.splitlines():
+        if ':' not in line:
+          continue
+        key, value = line.split(':', 1)
+        if key.strip().lower() == 'title':
+          front_matter_title = value.strip().strip('"\'')
+          break
+
+  if front_matter_title:
+    return front_matter_title, body_text
+
+  # Fallback to first level-1 heading in Markdown body.
+  heading_match = re.search(r'^\s*#\s+(.+?)\s*$', body_text, flags=re.MULTILINE)
+  if heading_match:
+    return heading_match.group(1).strip(), body_text
+
+  return fallback_title, body_text
+
+
 def page_template(
     title: str,
     body_html: str,
@@ -333,8 +363,9 @@ def build_output(output_root: Path) -> None:
 
         if path.suffix.lower() == '.md':
             md_text = path.read_text(encoding='utf-8')
+            page_title, md_body = extract_page_title_and_body(md_text, path.stem)
             rendered = markdown.markdown(
-                md_text,
+                md_body,
                 extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
                 output_format='html5',
             )
@@ -346,7 +377,7 @@ def build_output(output_root: Path) -> None:
             else:
                 nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(output_root / 'modules.html', html_target.parent).replace(os.sep, '/')
             html_target.write_text(
-                page_template(path.stem, rendered, css_href, home_href, nav2_label, nav2_href),
+                page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
                 encoding='utf-8',
             )
         elif path.suffix.lower() == '.html' and path.name != 'index.html':
@@ -356,30 +387,31 @@ def build_output(output_root: Path) -> None:
 
 
 def build_in_place() -> None:
-    (ROOT / '.nojekyll').write_text('', encoding='utf-8')
-    css_target = write_markdown_css(ROOT)
+  (ROOT / '.nojekyll').write_text('', encoding='utf-8')
+  css_target = write_markdown_css(ROOT)
 
-    for path in ROOT.rglob('*.md'):
-        if should_skip(path):
-            continue
+  for path in ROOT.rglob('*.md'):
+    if should_skip(path):
+      continue
 
-        md_text = path.read_text(encoding='utf-8')
-        rendered = markdown.markdown(
-            md_text,
-            extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
-            output_format='html5',
-        )
-        html_target = path.with_suffix('.html')
-        css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
-        home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
-        if path.stem == 'modules':
-            nav2_label, nav2_href = 'Silabus', os.path.relpath(ROOT / 'syllabus.html', html_target.parent).replace(os.sep, '/')
-        else:
-            nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
-        html_target.write_text(
-            page_template(path.stem, rendered, css_href, home_href, nav2_label, nav2_href),
-            encoding='utf-8',
-        )
+    md_text = path.read_text(encoding='utf-8')
+    page_title, md_body = extract_page_title_and_body(md_text, path.stem)
+    rendered = markdown.markdown(
+      md_body,
+      extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
+      output_format='html5',
+    )
+    html_target = path.with_suffix('.html')
+    css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
+    home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
+    if path.stem == 'modules':
+      nav2_label, nav2_href = 'Silabus', os.path.relpath(ROOT / 'syllabus.html', html_target.parent).replace(os.sep, '/')
+    else:
+      nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
+    html_target.write_text(
+      page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
+      encoding='utf-8',
+    )
 
 
 def main() -> None:
