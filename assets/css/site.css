@@ -488,9 +488,14 @@ h2 {
   }
 
   .quick-links a,
-  .top-nav a,
   .text-link {
     width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top-nav a {
+    flex: 1;
     justify-content: center;
     text-align: center;
   }
