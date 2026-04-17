@@ -117,6 +117,8 @@ jobs:
               css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
               html_page = page_template(title, rendered, css_href)
               html_target.write_text(html_page, encoding='utf-8')
+            elif path.suffix.lower() == '.html' and path.name != 'index.html':
+              continue
             else:
               shutil.copy2(path, target)
           PY
