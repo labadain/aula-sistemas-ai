@@ -15,7 +15,7 @@
 
 - **Nome do Docente:** Gabriel de Jesus, PhD
 - **Email:** estudante.konsulta@gmail.com
-- **Horário de Atendimento:** –
+- **Horário de Atendimento:** Bazeia ba markasaun.
 - **Gabinete:** –
 
 ## Língua de Trabalho
