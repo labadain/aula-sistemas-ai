@@ -32,13 +32,13 @@ Unidade kurrikulár ida-ne'e aprezenta konjuntu asuntu nukleár iha área Inteli
 
 Iha unidade kurrikulár ida-ne'e nia rohan, estudante sira sei iha kapasidade atu:
 
-1. **Komprende Intelijénsia Artifisiál (AI):** Esplika paradigma AI sira, inklui abordajen simbóliku (ajente, peskiza, lójika) no abordajem bazeia ba dadus, inklui sistema modernu sira-ne'ebé bazeia ba Large Language Models (LLMs).
+1. **Komprende Intelijénsia Artifisiál (AI):** Esplika paradigma IA sira, inklui abordajen simbóliku (ajente, peskiza, lójika) no abordajem bazeia ba dadus, inklui sistema modernu sira-ne'ebé bazeia ba Large Language Models (LLMs).
 2. **Dezenvolve no avalia modelu Machine Learning (ML):** Treina, teste, no avalia modelu ML ba problema regresaun, klasifikasaun, no clustering.
 3. **Dezenvolve no avalia modelu Deep Learning:** Implementa no treina modelu deep learning uza framework hanesan PyTorch, inklui modelu vizaun komputasionál no klasifikasaun populár sira.
 4. **Komprende NLP no Transformer:** Esplika no uza konseitu Natural Language Processing (NLP), inklui embeddings, attention mechanism, no arkitektura Transformer iha tarefa prosesamentu linguajen.
-5. **Dezenvolve aplikasaun Generative AI**: Kria aplikasaun AI bazeia ba Large Language Models (LLMs), inklui prompt engineering no in-context learning iha aplikasaun generativu AI.
-6. **Dezenvolvimentu no implementasaun sistema AI:**: Integra pipeline dadus, modelu, no aplikasaun AI, inklui deployment no utilizasaun frameworks modernu.
-7. **Avalia risku no aspetu étiku AI:** Analiza bias, privasidade, seguransa, no impaktu sosial husi sistema AI.
+5. **Dezenvolve aplikasaun Generative IA**: Kria aplikasaun IA bazeia ba Large Language Models (LLMs), inklui prompt engineering no in-context learning iha aplikasaun generativu IA.
+6. **Dezenvolvimentu no implementasaun sistema IA:** Integra pipeline dadus, modelu, no aplikasaun IA, inklui deployment no utilizasaun frameworks modernu.
+7. **Avalia risku no aspetu étiku IA:** Analiza bias, privasidade, seguransa, no impaktu sosial husi sistema IA.
 
 
 ## Pré-requisitos e Co-requisitos
@@ -51,8 +51,8 @@ Koñesimentu kona-ba algoritmia, estrutura dadus, programasaun, no estatístika.
 2. Módulu 2: [**Machine Learning**](module-2-machine-learning/module-2.html) sei kobre fundamentu kona-ba Machine Learning, inklui aprendizajen supervizionada, la'ós supervizionada, no introdusaun ba reinforcement learning. Sei inklui modelu sira populár ba regresaun, klasifikasaun, no clustering, no sei halo prátika laboratoriál ho Scikit-learn.
 3. Módulu 3: [**Deep Learning**](module-3-deep-learning/module-3.html) sei kobre rede neuronál sira hanesan perceptron no multilayer neural networks, prosesu treinamentu (loss function no backpropagation), no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika uza PyTorch atu treina modelu simples ida.
 4. Módulu 4: [**NLP and Generative AI**](module-4-nlp-and-generative-ai/module-4.html) sei kobre fundamentu Natural Language Processing (NLP), inklui tokenizasaun, embeddings, no prosesamentu testu. Módulu ida-ne'e sei esplika mós arkitektura Transformer, ne'ebé sai baze ba LLMs. Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot uza abordajen sira ne'ebé utiliza iha ChatGPT.
-5. Módulu 5: [**AI System Deployment and Monitoring**](module-5-ai-systems-and-deployment/module-5.html) sei kobre oinsá atu dezenvolve sistema AI kompletu, hahú hosi preparasaun dadus to’o implementasaun modelu. Tópiku ne'e sei konsentra ba dezenvolvimentu aplikasaun AI reál hodi demonstra solusaun ho baze AI. Estudante sira sei koñese framework sira ne'ebé bele fasilita demonstra modelu AI iha protótipu ida. Framework sira-ne'e inklui LLamaIndex, Langchain, no Streamlit. Sei kobre mós konseitu fundamentál ba privasidade, étika, no impaktu sosiál.
-6. Módulu 6: [**Final Project**](module-6-final-project/module-6.html) estudante sira sei dezenvolve projetu final ida-ne'ebé integra koñesimentu hotu-hotu hosi unidade kurrikulár ida-ne'e. Projetu bele inklui dezenvolvimentu chatbot, sistema klasifikasaun imajen, ka aplikasaun AI seluk. Estudante sira sei halo proposta, implementasaun, no apresentasaun finál hodi hatudu kapasidade atu kria sistema AI ne'ebé funsiona iha situasaun reál.
+5. Módulu 5: [**AI System Deployment and Monitoring**](module-5-ai-systems-and-deployment/module-5.html) sei kobre oinsá atu dezenvolve sistema IA kompletu, hahú hosi preparasaun dadus to’o implementasaun modelu. Tópiku ne'e sei konsentra ba dezenvolvimentu aplikasaun IA reál hodi demonstra solusaun ho baze IA . Estudante sira sei koñese framework sira ne'ebé bele fasilita demonstra modelu IA iha protótipu ida. Framework sira-ne'e inklui LLamaIndex, Langchain, no Streamlit. Sei kobre mós konseitu fundamentál ba privasidade, étika, no impaktu sosiál.
+6. Módulu 6: [**Final Project**](module-6-final-project/module-6.html) estudante sira sei dezenvolve projetu final ida-ne'ebé integra koñesimentu hotu-hotu hosi unidade kurrikulár ida-ne'e. Projetu bele inklui dezenvolvimentu chatbot, sistema klasifikasaun imajen, ka aplikasaun IA seluk. Estudante sira sei halo proposta, implementasaun, no apresentasaun finál hodi hatudu kapasidade atu kria sistema IA ne'ebé funsiona iha situasaun reál.
 
 ## Métodos de Avaliação
 
