@@ -13,9 +13,9 @@
 
 ## Docência Responsável
 
-- **Nome do Docente:** Gabriel de Jesus, PhD
+- **Nome do Docente:** [Gabriel de Jesus](https://gabrieldejesus.labadain.com)
 - **Email:** estudante.konsulta@gmail.com
-- **Horário de Atendimento:** Bazeia ba markasaun.
+- **Horário de Atendimento:** Bazeia ba markasaun
 - **Gabinete:** –
 
 ## Língua de Trabalho
@@ -24,9 +24,9 @@ Tetun – ho instrusaun sira maioria iha Inglés.
 
 ## Objetivos
 
-Unidade kurrikulár ida-ne'e aprezenta konjuntu asuntu nukleár iha área Intelijénsia Artifisiál (IA) no Sistema Intelijente sira. Objetivu prinsipáll sira mak hanensan tuirmai ne'e:
+Unidade kurrikulár ida-ne'e aprezenta konjuntu asuntu nukleár iha área Intelijénsia Artifisiál (IA) no Sistema Intelijente sira. Objetivu prinsipál sira mak hanensan tuirmai ne'e:
 
-1. Hasa'e **koñesimentu** kona-ba fundamentu sira IA no Sistema Intelijente sira, no karakterístika sira-ne'ebé distinge ninia aplikabilidade.
+1. Hasa'e **koñesimentu** kona-ba fundamentu IA no Sistema Intelijente sira, no karakterístika sira-ne'ebé distinge ninia aplikabilidade.
 2. Hasa'e **abilidade** kona-ba dezenvolvimentu no avaliasaun Sistema IA sira hodi rezolve problema komputasionál kompleksa sira.
 3. Hasa'e **konsiénsia** étika no responsabilidade iha dezenvolvimentu Sistema IA sira hodi transparante, justu, seguru, no refleta mudansa teknolójika ohin-loron nian.
 
@@ -49,12 +49,12 @@ Koñesimentu kona-ba algoritmia, estrutura dadus, programasaun, no estatístika.
 
 ## Programa
 
-1. Módulu I: **AI Foundations** sei kobre fundamentu ne'ebé relevante ho unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia sira peskiza nian, no reprezentasaun koñesimentu. Módulu ida-ne'e sei ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen dadus.
-2. Módulu II: **Machine Learning** sei kobre fundamentu kona-ba Machine Learning, inklui aprendizajen supervizionada, la'ós supervizionada, no introdusaun ba reinforcement learning. Sei inklui modelu sira populár ba regresaun, klasifikasaun, no clustering, no sei halo prátika laboratoriál ho Scikit-learn.
-3. Módulu III: **Deep Learning** sei kobre rede neuronál sira hanesan perceptron no multilayer neural networks, prosesu treinamentu (loss function no backpropagation), no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika uza PyTorch atu treina modelu simples ida.
-4. Módulu IV: **NLP and Generative AI** sei kobre fundamentu Natural Language Processing (NLP), inklui tokenizasaun, embeddings, no prosesamentu testu. Módulu ida-ne'e sei esplika mós arkitektura Transformer, ne'ebé sai baze ba LLMs. Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot uza abordajen sira ne'ebé utiliza iha ChatGPT.
-5. Módulu V: **AI System Deployment and Monitoring** sei kobre oinsá atu dezenvolve sistema AI kompletu, hahú hosi preparasaun dadus to’o implementasaun modelu. Tópiku ne'e sei konsentra ba dezenvolvimentu aplikasaun AI reál hodi demonstra solusaun ho baze AI. Estudante sira sei koñese framework sira ne'ebé bele fasilita demonstra modelu AI iha protótipu ida. Framework sira-ne'e inklui LLamaIndex, Langchain, no Streamlit. Sei kobre mós konseitu fundamentál ba privasidade, étika, no impaktu sosiál.
-6. Módulu VI: **Final Project** estudante sira sei dezenvolve projetu final ida-ne'ebé integra koñesimentu hotu-hotu hosi unidade kurrikulár ida-ne'e. Projetu bele inklui dezenvolvimentu chatbot, sistema klasifikasaun imajen, ka aplikasaun AI seluk. Estudante sira sei halo proposta, implementasaun, no apresentasaun finál hodi hatudu kapasidade atu kria sistema AI ne'ebé funsiona iha situasaun reál.
+1. Módulu I: [**AI Foundations**](/module-1-ai-foundations/) sei kobre fundamentu ne'ebé relevante ho unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia sira peskiza nian, no reprezentasaun koñesimentu. Módulu ida-ne'e sei ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen dadus.
+2. Módulu II: [**Machine Learning**](/module-2-machine-learning/) sei kobre fundamentu kona-ba Machine Learning, inklui aprendizajen supervizionada, la'ós supervizionada, no introdusaun ba reinforcement learning. Sei inklui modelu sira populár ba regresaun, klasifikasaun, no clustering, no sei halo prátika laboratoriál ho Scikit-learn.
+3. Módulu III: [**Deep Learning**](/module-3-deep-learning/) sei kobre rede neuronál sira hanesan perceptron no multilayer neural networks, prosesu treinamentu (loss function no backpropagation), no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika uza PyTorch atu treina modelu simples ida.
+4. Módulu IV: [**NLP and Generative AI**](/module-4-nlp-and-generative-ai/) sei kobre fundamentu Natural Language Processing (NLP), inklui tokenizasaun, embeddings, no prosesamentu testu. Módulu ida-ne'e sei esplika mós arkitektura Transformer, ne'ebé sai baze ba LLMs. Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot uza abordajen sira ne'ebé utiliza iha ChatGPT.
+5. Módulu V: [**AI System Deployment and Monitoring**](/module-5-ai-systems-and-deployment/) sei kobre oinsá atu dezenvolve sistema AI kompletu, hahú hosi preparasaun dadus to’o implementasaun modelu. Tópiku ne'e sei konsentra ba dezenvolvimentu aplikasaun AI reál hodi demonstra solusaun ho baze AI. Estudante sira sei koñese framework sira ne'ebé bele fasilita demonstra modelu AI iha protótipu ida. Framework sira-ne'e inklui LLamaIndex, Langchain, no Streamlit. Sei kobre mós konseitu fundamentál ba privasidade, étika, no impaktu sosiál.
+6. Módulu VI: [**Final Project**](/module-6-final-project/) estudante sira sei dezenvolve projetu final ida-ne'ebé integra koñesimentu hotu-hotu hosi unidade kurrikulár ida-ne'e. Projetu bele inklui dezenvolvimentu chatbot, sistema klasifikasaun imajen, ka aplikasaun AI seluk. Estudante sira sei halo proposta, implementasaun, no apresentasaun finál hodi hatudu kapasidade atu kria sistema AI ne'ebé funsiona iha situasaun reál.
 
 ## Métodos de Avaliação
 
