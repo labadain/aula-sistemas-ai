@@ -274,7 +274,14 @@ def should_skip(path: Path) -> bool:
     return any(part in SKIP_PARTS for part in path.parts)
 
 
-def page_template(title: str, body_html: str, css_href: str, home_href: str, program_href: str) -> str:
+def page_template(
+    title: str,
+    body_html: str,
+    css_href: str,
+    home_href: str,
+    nav2_label: str,
+    nav2_href: str,
+) -> str:
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -292,7 +299,7 @@ def page_template(title: str, body_html: str, css_href: str, home_href: str, pro
       </div>
       <nav class="top-nav" aria-label="Page navigation">
         <a href="{home_href}">Home</a>
-        <a href="{program_href}">Program</a>
+        <a href="{nav2_href}">{nav2_label}</a>
       </nav>
     </div>
   </header>
@@ -338,9 +345,12 @@ def build_output(output_root: Path) -> None:
             html_target = target.with_suffix('.html')
             css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
             home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
-            program_href = os.path.relpath(output_root / 'modules.html', html_target.parent).replace(os.sep, '/')
+            if path.stem == 'modules':
+                nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / 'syllabus.html', html_target.parent).replace(os.sep, '/')
+            else:
+                nav2_label, nav2_href = 'Program', os.path.relpath(output_root / 'modules.html', html_target.parent).replace(os.sep, '/')
             html_target.write_text(
-                page_template(path.stem, rendered, css_href, home_href, program_href),
+                page_template(path.stem, rendered, css_href, home_href, nav2_label, nav2_href),
                 encoding='utf-8',
             )
         elif path.suffix.lower() == '.html' and path.name != 'index.html':
@@ -366,9 +376,12 @@ def build_in_place() -> None:
         html_target = path.with_suffix('.html')
         css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
         home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
-        program_href = os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
+        if path.stem == 'modules':
+            nav2_label, nav2_href = 'Silabus', os.path.relpath(ROOT / 'syllabus.html', html_target.parent).replace(os.sep, '/')
+        else:
+            nav2_label, nav2_href = 'Program', os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
         html_target.write_text(
-            page_template(path.stem, rendered, css_href, home_href, program_href),
+            page_template(path.stem, rendered, css_href, home_href, nav2_label, nav2_href),
             encoding='utf-8',
         )
 
