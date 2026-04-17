@@ -1,5 +1,3 @@
-# Sistemas de Inteligência Artificial
-
 ## Informação da Unidade Curricular
 
 <!-- - **Designação da Unidade Curricular:** Sistemas de Inteligência Artificial -->
@@ -15,7 +13,7 @@
 
 - **Nome do Docente:** [Gabriel de Jesus](https://gabrieldejesus.labadain.com)
 - **Email:** estudante.konsulta@gmail.com
-- **Horário de Atendimento:** Bazeia ba markasaun
+- **Horário de Atendimento:** –
 - **Gabinete:** –
 
 ## Língua de Trabalho
