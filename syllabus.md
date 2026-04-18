@@ -6,7 +6,7 @@ title: Silabus – Sistema Intelijénsia Artifisiál
 
 <!-- - **Designação da Unidade Curricular:** Sistemas de Inteligência Artificial -->
 - **Código:** TICP5060019
-- **Semestre/Ano:** 1º semestre (3º ano)
+- **Semestre:** 5
 - **Número de Aulas:** 32
 - **Créditos ECTS:** 6
 - **Horas de Contacto:** 92h (~6h/semana)
