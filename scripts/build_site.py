@@ -11,7 +11,8 @@ import markdown
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SKIP_PARTS = {'.git', '.github', '_site', '__pycache__'}
+BRANCH_HTML_DIR = Path('generated-html')
+SKIP_PARTS = {'.git', '.github', '_site', '__pycache__', '.venv', BRANCH_HTML_DIR.name}
 CSS_SOURCE_REL = Path('assets/css/markdown.css')
 
 
@@ -100,71 +101,88 @@ def write_markdown_css(output_root: Path) -> Path:
 
 
 def build_output(output_root: Path) -> None:
-    if output_root.exists():
-        shutil.rmtree(output_root)
-    output_root.mkdir(parents=True, exist_ok=True)
-    (output_root / '.nojekyll').write_text('', encoding='utf-8')
-    css_target = write_markdown_css(output_root)
+  if output_root.exists():
+    shutil.rmtree(output_root)
+  output_root.mkdir(parents=True, exist_ok=True)
+  (output_root / '.nojekyll').write_text('', encoding='utf-8')
+  css_target = write_markdown_css(output_root)
 
-    for path in ROOT.rglob('*'):
-        if path.is_dir() or should_skip(path):
-            continue
+  for path in ROOT.rglob('*'):
+    if path.is_dir() or should_skip(path):
+      continue
 
-        relative = path.relative_to(ROOT)
-        target = output_root / relative
-        target.parent.mkdir(parents=True, exist_ok=True)
+    relative = path.relative_to(ROOT)
+    target = output_root / relative
 
-        if path.suffix.lower() == '.md':
-            md_text = path.read_text(encoding='utf-8')
-            page_title, md_body = extract_page_title_and_body(md_text, path.stem)
-            rendered = markdown.markdown(
-                md_body,
-                extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
-                output_format='html5',
-            )
-            html_target = target.with_suffix('.html')
-            css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
-            home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
-            if path.stem == 'modules':
-                nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / 'syllabus.html', html_target.parent).replace(os.sep, '/')
-            else:
-                nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(output_root / 'modules.html', html_target.parent).replace(os.sep, '/')
-            html_target.write_text(
-                page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
-                encoding='utf-8',
-            )
-        elif path.suffix.lower() == '.html' and path.name != 'index.html':
-            continue
-        else:
-            shutil.copy2(path, target)
+    if path.suffix.lower() == '.md':
+      md_text = path.read_text(encoding='utf-8')
+      page_title, md_body = extract_page_title_and_body(md_text, path.stem)
+      rendered = markdown.markdown(
+        md_body,
+        extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
+        output_format='html5',
+      )
+      html_target = (output_root / BRANCH_HTML_DIR / relative).with_suffix('.html')
+      html_target.parent.mkdir(parents=True, exist_ok=True)
+      css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
+      home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
+      if path.stem == 'modules':
+        nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / BRANCH_HTML_DIR / 'syllabus.html', html_target.parent).replace(os.sep, '/')
+      else:
+        nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(output_root / BRANCH_HTML_DIR / 'modules.html', html_target.parent).replace(os.sep, '/')
+      html_target.write_text(
+        page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
+        encoding='utf-8',
+      )
+    elif path.suffix.lower() == '.html' and path.name != 'index.html':
+      continue
+    else:
+      target.parent.mkdir(parents=True, exist_ok=True)
+      shutil.copy2(path, target)
 
 
 def build_in_place() -> None:
-  (ROOT / '.nojekyll').write_text('', encoding='utf-8')
-  css_target = write_markdown_css(ROOT)
+    branch_root = ROOT / BRANCH_HTML_DIR
 
-  for path in ROOT.rglob('*.md'):
-    if should_skip(path):
-      continue
+    # Remove previously generated HTML files that lived next to Markdown files.
+    for path in ROOT.rglob('*.html'):
+        if should_skip(path):
+            continue
+        if path == ROOT / 'index.html':
+            continue
+        path.unlink()
 
-    md_text = path.read_text(encoding='utf-8')
-    page_title, md_body = extract_page_title_and_body(md_text, path.stem)
-    rendered = markdown.markdown(
-      md_body,
-      extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
-      output_format='html5',
-    )
-    html_target = path.with_suffix('.html')
-    css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
-    home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
-    if path.stem == 'modules':
-      nav2_label, nav2_href = 'Silabus', os.path.relpath(ROOT / 'syllabus.html', html_target.parent).replace(os.sep, '/')
-    else:
-      nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(ROOT / 'modules.html', html_target.parent).replace(os.sep, '/')
-    html_target.write_text(
-      page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
-      encoding='utf-8',
-    )
+    if branch_root.exists():
+        shutil.rmtree(branch_root)
+    branch_root.mkdir(parents=True, exist_ok=True)
+
+    (ROOT / '.nojekyll').write_text('', encoding='utf-8')
+    css_target = write_markdown_css(branch_root)
+
+    for path in ROOT.rglob('*.md'):
+        if should_skip(path):
+            continue
+
+        md_text = path.read_text(encoding='utf-8')
+        page_title, md_body = extract_page_title_and_body(md_text, path.stem)
+        rendered = markdown.markdown(
+            md_body,
+            extensions=['tables', 'fenced_code', 'sane_lists', 'toc'],
+            output_format='html5',
+        )
+        relative = path.relative_to(ROOT)
+        html_target = (branch_root / relative).with_suffix('.html')
+        html_target.parent.mkdir(parents=True, exist_ok=True)
+        css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
+        home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
+        if path.stem == 'modules':
+            nav2_label, nav2_href = 'Silabus', os.path.relpath(branch_root / 'syllabus.html', html_target.parent).replace(os.sep, '/')
+        else:
+            nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(branch_root / 'modules.html', html_target.parent).replace(os.sep, '/')
+        html_target.write_text(
+            page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
+            encoding='utf-8',
+        )
 
 
 def main() -> None:
