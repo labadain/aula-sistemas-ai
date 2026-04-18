@@ -159,7 +159,16 @@ a {
 }
 
 .content-flow td a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
   text-decoration: none;
+}
+
+.content-flow td:has(> a:only-child) {
+  text-align: center;
+  vertical-align: middle;
 }
 
 .content-flow td a:hover,
