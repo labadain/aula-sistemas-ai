@@ -49,6 +49,20 @@ def extract_page_title_and_body(md_text: str, fallback_title: str) -> tuple[str,
   return fallback_title, body_text
 
 
+def rewrite_root_relative_links(rendered_html: str, html_target: Path) -> str:
+  def replace(match: re.Match[str]) -> str:
+    attribute = match.group(1)
+    target = match.group(2)
+    if target.startswith('//'):
+      return match.group(0)
+
+    resolved_target = ROOT / target.lstrip('/')
+    relative_target = os.path.relpath(resolved_target, html_target.parent).replace(os.sep, '/')
+    return f'{attribute}="{relative_target}"'
+
+  return re.sub(r'(href|src)="(/[^\"]*)"', replace, rendered_html)
+
+
 def page_template(
     title: str,
     body_html: str,
@@ -111,6 +125,7 @@ def build_output(output_root: Path) -> None:
       )
       html_target = (output_root / BRANCH_HTML_DIR / relative).with_suffix('.html')
       html_target.parent.mkdir(parents=True, exist_ok=True)
+      rendered = rewrite_root_relative_links(rendered, html_target)
       css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
       home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
       if path.stem == 'modules':
@@ -159,6 +174,7 @@ def build_in_place() -> None:
         relative = path.relative_to(ROOT)
         html_target = (branch_root / relative).with_suffix('.html')
         html_target.parent.mkdir(parents=True, exist_ok=True)
+        rendered = rewrite_root_relative_links(rendered, html_target)
         css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
         home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
         if path.stem == 'modules':
