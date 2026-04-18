@@ -204,13 +204,13 @@ a {
   border-bottom: 1px solid var(--line);
 }
 
-.content-flow tr > th:first-child,
+/* .content-flow tr > th:first-child,
 .content-flow tr > td:first-child,
 .content-flow tr > th:last-child,
 .content-flow tr > td:last-child {
   text-align: center;
   vertical-align: middle;
-}
+} */
 
 .content-flow th {
   font-size: 0.84rem;
