@@ -1,8 +1,8 @@
 ---
-title: Programa Semanál – Sistema Intelijénsia Artifisiál
+title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 ---
 
-## Progama Semanal
+## Progama Ensinu
 | Sesaun | Tópiku | Objetivu | Rezultadu Esperadu | Matéria |
 | --- | --- | --- | --- | --- | 
 | 1º | Introdusan, aprezentasaun programa ba unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Fó koñese ba estudante programa unidade kurrikulár durante semestre ida nian. | Estudante apár ho programa no dosente koñese di'ak liután estudante sira-nia kompeténsia. | [🔗](module-1-ai-foundations/week-1/meeting-1.html) |
