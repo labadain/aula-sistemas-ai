@@ -88,9 +88,6 @@ def page_template(
 '''
 
 
-
-
-
 def build_output(output_root: Path) -> None:
   if output_root.exists():
     shutil.rmtree(output_root)
