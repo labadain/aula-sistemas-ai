@@ -3,7 +3,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 ---
 
 ## Progama Ensinu
-| Sesaun | Tópiku | Objetivu | Rezultadu Esperadu | Matéria |
+| Sesaun | Tópiku | Objetivu | Rezultadu Esperadu | Rekursu |
 | --- | --- | --- | --- | --- | 
 | 1º | Introdusan, aprezentasaun programa ba unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Fó koñese ba estudante programa unidade kurrikulár durante semestre ida nian. | Estudante apár ho programa no dosente koñese di'ak liután estudante sira-nia kompeténsia. | [🔗](module-1-ai-foundations/week-1/meeting-1.html) |
 | 2º |  |  |  | [🔗](module-1-ai-foundations/week-1/meeting-2.html) |
