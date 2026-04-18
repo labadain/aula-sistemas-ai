@@ -45,7 +45,7 @@ Iha unidade kurrikulár ida-ne'e nia rohan, estudante sira sei **iha kapasidade 
 7. **Avalia risku no aspetu étiku IA** hodi komprende konseitu bias, privasidade, étika, no impaktu sosial sira.
 
 
-## Pré-requisitos e Co-requisitos
+## Pré-requisitos
 
 Koñesimentu kona-ba algoritmia, estrutura dadus, programasaun, no estatístika.
 
