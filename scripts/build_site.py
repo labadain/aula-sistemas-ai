@@ -88,16 +88,7 @@ def page_template(
 '''
 
 
-def write_markdown_css(output_root: Path) -> Path:
-    css_source = ROOT / CSS_SOURCE_REL
-    if not css_source.exists():
-        raise FileNotFoundError(f'Missing CSS source file: {css_source}')
 
-    css_target = output_root / CSS_SOURCE_REL
-    css_target.parent.mkdir(parents=True, exist_ok=True)
-    if css_source != css_target:
-        shutil.copy2(css_source, css_target)
-    return css_target
 
 
 def build_output(output_root: Path) -> None:
@@ -105,7 +96,6 @@ def build_output(output_root: Path) -> None:
     shutil.rmtree(output_root)
   output_root.mkdir(parents=True, exist_ok=True)
   (output_root / '.nojekyll').write_text('', encoding='utf-8')
-  css_target = write_markdown_css(output_root)
 
   for path in ROOT.rglob('*'):
     if path.is_dir() or should_skip(path):
@@ -124,7 +114,7 @@ def build_output(output_root: Path) -> None:
       )
       html_target = (output_root / BRANCH_HTML_DIR / relative).with_suffix('.html')
       html_target.parent.mkdir(parents=True, exist_ok=True)
-      css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
+      css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
       home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
       if path.stem == 'modules':
         nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / BRANCH_HTML_DIR / 'syllabus.html', html_target.parent).replace(os.sep, '/')
@@ -157,7 +147,6 @@ def build_in_place() -> None:
     branch_root.mkdir(parents=True, exist_ok=True)
 
     (ROOT / '.nojekyll').write_text('', encoding='utf-8')
-    css_target = write_markdown_css(branch_root)
 
     for path in ROOT.rglob('*.md'):
         if should_skip(path):
@@ -173,7 +162,7 @@ def build_in_place() -> None:
         relative = path.relative_to(ROOT)
         html_target = (branch_root / relative).with_suffix('.html')
         html_target.parent.mkdir(parents=True, exist_ok=True)
-        css_href = os.path.relpath(css_target, html_target.parent).replace(os.sep, '/')
+        css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
         home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
         if path.stem == 'modules':
             nav2_label, nav2_href = 'Silabus', os.path.relpath(branch_root / 'syllabus.html', html_target.parent).replace(os.sep, '/')
