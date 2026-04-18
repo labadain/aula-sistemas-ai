@@ -38,11 +38,11 @@ Iha unidade kurrikulár ida-ne'e nia rohan, estudante sira sei iha kapasidade at
 
 1. **Komprende Intelijénsia Artifisiál (AI)** Komprende paradigma IA, abordajen simbóliku (ajente, peskiza, lójika) no abordajem bazeia ba dadus, no sistema modernu sira-ne'ebé bazeia ba Large Language Models (LLMs).
 2. **Dezenvolve no avalia modelu Machine Learning (ML)** Komprende oinsá treinu no avalia modelu ML ba problema regresaun, klasifikasaun, no clustering.
-3. **Dezenvolve no avalia modelu Deep Learning:** Komprende oinsá treinu, fine-tuning, no avalia modelu deep learning, liu-liu ninia aplikasaun ba tarefa komún sira.
+3. **Dezenvolve no avalia modelu Deep Learning** Komprende oinsá treinu, fine-tuning, no avalia modelu deep learning, liu-liu ninia aplikasaun ba tarefa komún sira.
 4. **Komprende NLP no Transformer** Komprende konseitu Natural Language Processing (NLP), inklui embeddings, attention mechanism, no arkitektura Transformer iha tarefa prosesamentu linguajen.
 5. **Dezenvolve aplikasaun Generative IA** Komprende maneira kria aplikasaun IA bazeia ba Large Language Models (LLMs), inklui prompt engineering iha generativu IA.
 6. **Dezenvolvimentu no implementasaun sistema IA** Komprende oinsá integra pipeline dadus, modelu, no aplikasaun IA, inklui ninia deployment ba iha ambiente produsaun.
-7. **Avalia risku no aspetu étiku IA:** Komprende konseitu bias, privasidade, étika, no impaktu sosial hosi sistema IA.
+7. **Avalia risku no aspetu étiku IA** Komprende konseitu bias, privasidade, étika, no impaktu sosial hosi sistema IA.
 
 
 ## Pré-requisitos e Co-requisitos
