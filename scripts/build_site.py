@@ -116,7 +116,7 @@ def build_output(output_root: Path) -> None:
       if path.stem == 'modules':
         nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / BRANCH_HTML_DIR / 'syllabus.html', html_target.parent).replace(os.sep, '/')
       else:
-        nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(output_root / BRANCH_HTML_DIR / 'modules.html', html_target.parent).replace(os.sep, '/')
+        nav2_label, nav2_href = 'Programa', os.path.relpath(output_root / BRANCH_HTML_DIR / 'modules.html', html_target.parent).replace(os.sep, '/')
       html_target.write_text(
         page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
         encoding='utf-8',
@@ -164,7 +164,7 @@ def build_in_place() -> None:
         if path.stem == 'modules':
             nav2_label, nav2_href = 'Silabus', os.path.relpath(branch_root / 'syllabus.html', html_target.parent).replace(os.sep, '/')
         else:
-            nav2_label, nav2_href = 'Programa Semanál', os.path.relpath(branch_root / 'modules.html', html_target.parent).replace(os.sep, '/')
+            nav2_label, nav2_href = 'Programa', os.path.relpath(branch_root / 'modules.html', html_target.parent).replace(os.sep, '/')
         html_target.write_text(
             page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
             encoding='utf-8',
