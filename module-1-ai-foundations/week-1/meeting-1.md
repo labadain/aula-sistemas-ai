@@ -1,5 +1,5 @@
 ---
-title: Sesaun 1º – Sistema Intelijénsia Artifisiál
+title: Sesaun 1ª – Sistema Intelijénsia Artifisiál
 ---
 
 ## Semana 1ª (sesaun 1ª)
