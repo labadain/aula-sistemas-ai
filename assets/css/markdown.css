@@ -158,6 +158,15 @@ a {
   color: #006d77;
 }
 
+.content-flow td a {
+  text-decoration: none;
+}
+
+.content-flow td a:hover,
+.content-flow td a:focus-visible {
+  text-decoration: underline;
+}
+
 .content-flow pre {
   overflow-x: auto;
   padding: 1rem 1.1rem;
