@@ -42,7 +42,7 @@ Iha unidade kurrikulár ida-ne'e nia rohan, estudante sira sei iha kapasidade at
 4. **Komprende NLP no Transformer** Komprende konseitu Natural Language Processing (NLP), inklui embeddings, attention mechanism, no arkitektura Transformer iha tarefa prosesamentu linguajen.
 5. **Dezenvolve aplikasaun Generative IA** Komprende maneira kria aplikasaun IA bazeia ba Large Language Models (LLMs), inklui prompt engineering iha generativu IA.
 6. **Dezenvolvimentu no implementasaun sistema IA** Komprende oinsá integra pipeline dadus, modelu, no aplikasaun IA, inklui ninia deployment ba iha ambiente produsaun.
-7. **Avalia risku no aspetu étiku IA:** Komprende konseitu bias, privasidade, seguransa, no impaktu sosial husi sistema IA.
+7. **Avalia risku no aspetu étiku IA:** Komprende konseitu bias, privasidade, étika, no impaktu sosial hosi sistema IA.
 
 
 ## Pré-requisitos e Co-requisitos
