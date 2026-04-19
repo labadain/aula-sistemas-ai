@@ -15,7 +15,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 | 8ª | Aprendizajen la'ós supervizionada. |  |  | [🔗](module-2-machine-learning/week-4/meeting-8.html) |
 | 9ª | **Aula prátika:** Treinu no avalia modelu clustering. |  |  | [🔗](module-2-machine-learning/week-5/meeting-9.html) |
 | 10ª | Reinforcement learning. |  |  | [🔗](module-2-machine-learning/week-5/meeting-10.html) |
-| 11ª | Introdusaun ba rede neuronál (neural network). |  |  | [🔗](module-3-deep-learning/week-6/meeting-11.html) |
+| 11ª | Introdusaun ba deep learning. |  |  | [🔗](module-3-deep-learning/week-6/meeting-11.html) |
 | 12ª | Backpropagation, loss function, no avaliasaun. |  |  | [🔗](module-3-deep-learning/week-6/meeting-12.html) |
 | 13ª | **Aula prátika:** kria modelu IA ida uza téknika deep learning. |  |  | [🔗](module-3-deep-learning/week-7/meeting-13.html) |
 | 14ª | Deep learning ba vizaun komputasionál. |  |  | [🔗](module-3-deep-learning/week-7/meeting-14.html) |
