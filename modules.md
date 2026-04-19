@@ -29,7 +29,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 | 22ª | **Aula prátika:** Kria klasifikadór ida ba testu uza RNNs no uza modelu pre-treinadu ida iha Hugging Face. |  |  | [🔗](module-4-nlp-and-generative-ai/week-11/meeting-22.html) |
 | 23ª | IA jenerativu. |  |  | [🔗](module-4-nlp-and-generative-ai/week-12/meeting-23.html) |
 | 24ª | **Aula prátika:** prompt engineering ba LLMs. |  |  | [🔗](module-4-nlp-and-generative-ai/week-12/meeting-24.html) |
-| 25ª | Retreival-augmented generations no ajente IA. |  |  | [🔗](module-4-nlp-and-generative-ai/week-13/meeting-25.html) |
+| 25ª | Retrieval-augmented generations no ajente IA. |  |  | [🔗](module-4-nlp-and-generative-ai/week-13/meeting-25.html) |
 | 26ª |  **Aula prátika:** kria ajente AI ida ba atendimentu. |  |  | [🔗](module-4-nlp-and-generative-ai/week-13/meeting-26.html) |
 | 27ª | Introdusaun ba Streamlit Framework. |  |  | [🔗](module-5-ai-systems-and-deployment/week-14/meeting-27.html) |
 | 28ª | **Aula prátika:** kria protótipu IA ida uza Streamlit.  |  |  | [🔗](module-5-ai-systems-and-deployment/week-14/meeting-28.html) |
