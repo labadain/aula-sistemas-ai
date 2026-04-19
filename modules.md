@@ -18,7 +18,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 | 11ª | Introdusaun ba rede neuronál (neural network). |  |  | [🔗](module-3-deep-learning/week-6/meeting-11.html) |
 | 12ª | Backpropagation, loss function, no avaliasaun. |  |  | [🔗](module-3-deep-learning/week-6/meeting-12.html) |
 | 13ª | **Aula prátika:** kria modelu IA ida uza téknika deep learning. |  |  | [🔗](module-3-deep-learning/week-7/meeting-13.html) |
-| 14ª | Convolutional Neural Networks (CNNs). |  |  | [🔗](module-3-deep-learning/week-7/meeting-14.html) |
+| 14ª | Deep learning ba vizaun komputasionál. |  |  | [🔗](module-3-deep-learning/week-7/meeting-14.html) |
 | 15ª | **Aula prátika:** Treinu modelu ida ba klasifikasaun imajen. |  |  | [🔗](module-3-deep-learning/week-8/meeting-15.html) |
 | 16ª | Introdusaun ba transfer learning. |  |  | [🔗](module-3-deep-learning/week-8/meeting-16.html) |
 | 17ª | `Ezame médiu semestre` |  |  | [🔗](module-3-deep-learning/week-9/meeting-17.html) |
