@@ -27,7 +27,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 | 20ª | **Aula prátika:** Fine-tuning word embedings no kria klasifikadór ida ba testu. |  |  | [🔗](module-4-nlp-and-generative-ai/week-10/meeting-20.html) |
 | 21ª | Deep Learning ba NLP no Transformers. |  |  | [🔗](module-4-nlp-and-generative-ai/week-11/meeting-21.html) |
 | 22ª | **Aula prátika:** Kria klasifikadór ida ba testu uza RNNs no uza modelu pre-treinadu ida iha Hugging Face. |  |  | [🔗](module-4-nlp-and-generative-ai/week-11/meeting-22.html) |
-| 23ª | IA jenerativu. |  |  | [🔗](module-4-nlp-and-generative-ai/week-12/meeting-23.html) |
+| 23ª | IA jenerativu (generative AI). |  |  | [🔗](module-4-nlp-and-generative-ai/week-12/meeting-23.html) |
 | 24ª | **Aula prátika:** prompt engineering ba LLMs. |  |  | [🔗](module-4-nlp-and-generative-ai/week-12/meeting-24.html) |
 | 25ª | Retrieval-augmented generations no ajente IA. |  |  | [🔗](module-4-nlp-and-generative-ai/week-13/meeting-25.html) |
 | 26ª |  **Aula prátika:** kria ajente IA ida ba atendimentu. |  |  | [🔗](module-4-nlp-and-generative-ai/week-13/meeting-26.html) |
