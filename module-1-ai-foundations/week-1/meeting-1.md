@@ -1,7 +1,7 @@
 ---
-title: Sesaun 1ª – Sistema Intelijénsia Artifisiál
+title: 1ª Sesaun – Sistema Intelijénsia Artifisiál
 ---
 
-## Semana 1ª (sesaun 1ª)
+## Módulu 1 (1ª semana)
 
-[Loke slides](/module-1-ai-foundations/week-1/test-slides.pdf)
+### Sumáriu ba 1ª Sesaun
