@@ -5,7 +5,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 ## Progama Ensinu
 | Sesaun | Tópiku | Objetivu | Rezultadu Esperadu | Sumáriu |
 | --- | --- | --- | --- | --- | 
-| 1ª | Introdusan no aprezentasaun unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Estudante sira komprende estrutura programa durante semestre ne'e nian no identifika kompeténsia inisiál. | Estudante koñese programa, regra no espetativa, no dosente iha vizaun kona-ba estidante sira-nia kompeténsia. | [🔗](module-1-ai-foundations/week-1/meeting-1.html) |
+| 1ª | Introdusan no aprezentasaun unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Estudante sira komprende estrutura programa durante semestre ne'e nian no identifika kompeténsia inisiál. | Estudante koñese programa, regra no espetativa, no dosente iha vizaun kona-ba estudante sira-nia kompeténsia. | [🔗](module-1-ai-foundations/week-1/meeting-1.html) |
 | 2ª | Introdusaun ba intelijénsia artifisiál. | Estudante sira komprende konseitu báziku, evolusaun, no aplikasaun IA nian. | Estudante sira bele esplika konseitu báziku IA, evolusaun, no área aplikasaun prinsipál sira. | [🔗](module-1-ai-foundations/week-1/meeting-2.html) |
 | 3ª | Ajente intelijente. | Estudante sira komprende konseitu ajente, ambiente, no interasaun entre sira. | Estudante sira bele esplika estrutura no komportamentu ajente intelijente ida. | [🔗](module-1-ai-foundations/week-2/meeting-3.html) |
 | 4ª | Algoritmia peskiza(search). | Estudante sira komprende problema peskiza no algoritmu klásiku sira hanesan breadth-first search (BFS), depth-first search (DFS), no A* search. | Estudante sira bele aplika algoritmu BFS, DFS, no A* atu rezolve problema peskiza simples. | [🔗](module-1-ai-foundations/week-2/meeting-4.html) |
