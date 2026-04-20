@@ -15,4 +15,4 @@ Sesaun ida-ne'e kobre:
 * Diskusaun interativa kona-ba papel no impaktu intelijénsia artifisiál.
 * Orientasaun ba leitura no preparasaun ba 3ª sesaun.
 
-Asesu ba aprezentasaun no materiál sira disponível <a href="https://drive.google.com/drive/folders/1U8bQpGiRRo6ARHrgyCXRZPZi5WSzTGUc?usp=sharing" target="_blank" rel="noopener noreferrer">iha-ne'e.</a>
+Asesu ba aprezentasaun no materiál sira disponível <a href="https://drive.google.com/drive/folders/1JOa_8y9CU6GKUO5I0tt07pS_2KLlkdA5?usp=sharing" target="_blank" rel="noopener noreferrer">iha-ne'e.</a>
