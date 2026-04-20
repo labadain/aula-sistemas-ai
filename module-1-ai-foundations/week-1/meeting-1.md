@@ -8,7 +8,7 @@ title: 1ª Sesaun – Sistema Intelijénsia Artifisiál
 
 Sesaun ida-ne'e kobre:
 
-* Aprezentasaun ba programa unidade kurrikulár durante semestre.
+* Aprezentasaun ba programa unidade kurrikulár ba semestre tomak.
 * Diskusaun kona-ba mekanizmu traballu, inklui projetu no ezame sira.
 * Aprezentasaun ba komponente no kritériu avaliasaun.
 * Aprezentasaun ba komponente no kritériu avaliasaun.
