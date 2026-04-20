@@ -10,6 +10,7 @@ Sesaun ida-ne'e kobre:
 
 * Definisaun hosi intelijénsia artifisiál.
 * Istória no evolusaun hosi intelijénsia artifisiál.
+* Abordajen simbóliku vs. dadus.
 * Estadu-da-arte intelijénsia artifisiál.
 * Interasaun no Diskusaun kona-ba intelijénsia artifisiál.
 * Referénsia leitura ba aula 3ª sesaun.
