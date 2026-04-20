@@ -84,4 +84,4 @@ Ekpozisaun no interasaun iha sala-aula teórika hodi aborda konteúdu programát
 - Brown, T. B., et al. (2020). Language models are few-shot learners. In Advances in Neural Information Processing Systems (NeurIPS 2020).
 
 ## Observações
-Lian ensinu uza Tetun maibé materia, instrusaun, no orientasaun sei uza mós Inglés.
+Lian ensinu mak Tetun maibé materia, instrusaun, no orientasaun sei uza mós Inglés.
