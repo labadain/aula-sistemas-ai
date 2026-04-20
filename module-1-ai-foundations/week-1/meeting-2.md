@@ -8,11 +8,11 @@ title: 2ª Sesaun – Sistema Intelijénsia Artifisiál
 
 Sesaun ida-ne'e kobre:
 
-* Definisaun hosi intelijénsia artifisiál.
-* Istória no evolusaun hosi intelijénsia artifisiál.
-* Abordajen simbóliku vs. dadus.
-* Estadu-da-arte intelijénsia artifisiál.
-* Interasaun no Diskusaun kona-ba intelijénsia artifisiál.
-* Referénsia leitura ba aula 3ª sesaun.
+* Definisaun intelijénsia artifisiál.
+* Istória no evolusaun intelijénsia artifisiál.
+* Abordajen simbóliku vs. abordagem bazeia ba dadus.
+* Estadu-da-arte no aplikasaun atual intelijénsia artifisiál.
+* Diskusaun interativa kona-ba papel no impaktu intelijénsia artifisiál.
+* Orientasaun ba leitura no preparasaun ba 3ª sesaun.
 
-Asesu materiál sira <a href="https://drive.google.com/drive/folders/1U8bQpGiRRo6ARHrgyCXRZPZi5WSzTGUc?usp=sharing" target="_blank" rel="noopener noreferrer">iha-ne'e.</a>
+Asesu ba aprezentasaun no materiál sira disponível <a href="https://drive.google.com/drive/folders/1U8bQpGiRRo6ARHrgyCXRZPZi5WSzTGUc?usp=sharing" target="_blank" rel="noopener noreferrer">iha-ne'e.</a>
