@@ -49,14 +49,14 @@ def extract_page_title_and_body(md_text: str, fallback_title: str) -> tuple[str,
   return fallback_title, body_text
 
 
-def rewrite_root_relative_links(rendered_html: str, html_target: Path) -> str:
+def rewrite_root_relative_links(rendered_html: str, html_target: Path, site_root: Path) -> str:
   def replace(match: re.Match[str]) -> str:
     attribute = match.group(1)
     target = match.group(2)
     if target.startswith('//'):
       return match.group(0)
 
-    resolved_target = ROOT / target.lstrip('/')
+    resolved_target = site_root / target.lstrip('/')
     relative_target = os.path.relpath(resolved_target, html_target.parent).replace(os.sep, '/')
     return f'{attribute}="{relative_target}"'
 
@@ -125,8 +125,8 @@ def build_output(output_root: Path) -> None:
       )
       html_target = (output_root / BRANCH_HTML_DIR / relative).with_suffix('.html')
       html_target.parent.mkdir(parents=True, exist_ok=True)
-      rendered = rewrite_root_relative_links(rendered, html_target)
-      css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
+      rendered = rewrite_root_relative_links(rendered, html_target, output_root)
+      css_href = os.path.relpath(output_root / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
       home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
       if path.stem == 'modules':
         nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / BRANCH_HTML_DIR / 'syllabus.html', html_target.parent).replace(os.sep, '/')
@@ -174,7 +174,7 @@ def build_in_place() -> None:
         relative = path.relative_to(ROOT)
         html_target = (branch_root / relative).with_suffix('.html')
         html_target.parent.mkdir(parents=True, exist_ok=True)
-        rendered = rewrite_root_relative_links(rendered, html_target)
+        rendered = rewrite_root_relative_links(rendered, html_target, ROOT)
         css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
         home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
         if path.stem == 'modules':
