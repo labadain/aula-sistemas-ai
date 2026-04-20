@@ -6,7 +6,7 @@ title: Programa Ensinu – Sistema Intelijénsia Artifisiál
 | Sesaun | Tópiku | Objetivu | Rezultadu Esperadu | Sumáriu |
 | --- | --- | --- | --- | --- | 
 | 1ª | Introdusan, aprezentasaun programa ba unidade kurrikulár, no avaliasaun kompeténsia preliminár. | Fó koñese ba estudante sira kona-ba programa unidade kurrikulár durante semestre ida nian. | Estudante apár ho programa no dosente koñese di'ak liután estudante sira-nia kompeténsia. | [🔗](module-1-ai-foundations/week-1/meeting-1.html) |
-| 2ª | Introdusaun ba intelijénsia artifisiál. | Fó koñese ba estudante sira kona-ba definisaun, fundamentu, evolusaun no estadu-da-arte IA nian. | Estudante sira komprende kona-ba fundamentu, evolusaun, no futuru IA nian. | [🔗](module-1-ai-foundations/week-1/meeting-2.html) |
+| 2ª | Introdusaun ba intelijénsia artifisiál. | Fó koñese ba estudante sira kona-ba fundamentu, evolusaun, no estadu-da-arte IA nian. | Estudante sira komprende kona-ba fundamentu, evolusaun, no futuru IA nian. | [🔗](module-1-ai-foundations/week-1/meeting-2.html) |
 | 3ª | Ajente intelijente. | Fó koñese ba estudante sira kona-ba natureza, komportanmentu, ambiente, no estrutura ajente ida nian.   | Estudante sira komprende ajente intelijente ida-nia karakterístika no natureza. | [🔗](module-1-ai-foundations/week-2/meeting-3.html) |
 | 4ª | Algoritmia peskiza. |  |  | [🔗](module-1-ai-foundations/week-2/meeting-4.html) |
 | 5ª | Fundamentu machine learning no avaliasaun. |  |  | [🔗](module-2-machine-learning/week-3/meeting-5.html) |
