@@ -51,7 +51,7 @@ Koñesimentu kona-ba algoritmia, estrutura dadus, programasaun, no estatístika.
 
 ## Programa
 
-1. **Módulu 1: Fundamentu IA** sei kobre fundamentu ne'ebé relevante ho unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia sira peskiza nian, no reprezentasaun koñesimentu. Módulu ida-ne'e sei ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen dadus.
+1. **Módulu 1: Fundamentu IA** sei kobre konseitu fundamentál ne'ebé relevante ho unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia sira peskiza nian, no reprezentasaun koñesimentu. Módulu ida-ne'e sei ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen dadus.
 2. **Módulu 2: Machine Learning** sei kobre fundamentu kona-ba machine learning, inklui introdusaun ba aprendizajen supervizionada, la'ós supervizionada, no reinforcement learning. Sei akomoda mós modelu populár sira ba tarefa regresaun, klasifikasaun, no clustering, inklui prátika laboratoriál ho Scikit-learn.
 3. **Módulu 3: Deep Learning** sei kobre rede neuronál sira no ninia prosesu treinamentu (inklui backpropagation), no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika atu treina ka fine-tuning modelu simples ruma.
 4. **Módulu 4: NLP and IA jenerativa** sei kobre fundamentu prosesamentu linguajen naturál, inklui tokenizasaun, embeddings, no prosesamentu testu. Módulu ida-ne'e sei esplika mós arkitektura Transformer, ne'ebé sai baze ba LLMs. Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot uza abordajen sira-ne'ebé utiliza iha ChatGPT, Gemini, no seluk tán.
