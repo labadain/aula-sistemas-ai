@@ -2,9 +2,9 @@
 title: 1ª Sesaun – Sistema Intelijénsia Artifisiál
 ---
 
-## Módulu 1 (1ª semana)
+## Módulu 1 (1ª semana, 1ª sesaun)
 
-### Sumáriu ba 1ª Sesaun
+### Sumáriu
 
 Sesaun ida-ne'e kobre:
 

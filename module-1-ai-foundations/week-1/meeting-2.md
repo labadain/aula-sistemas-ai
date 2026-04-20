@@ -2,9 +2,9 @@
 title: 2ª Sesaun – Sistema Intelijénsia Artifisiál
 ---
 
-## Módulu 1 (1ª semana)
+## Módulu 1 (1ª semana, 2ª sesaun)
 
-### Sumáriu ba 2ª Sesaun
+### Sumáriu
 
 Sesaun ida-ne'e kobre:
 
