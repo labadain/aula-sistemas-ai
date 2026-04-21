@@ -15,7 +15,7 @@ title: Silabus – Sistema Intelijénsia Artifisiál
 
 ## Docência Responsável
 
-- **Nome do Docente:** [Gabriel de Jesus](https://gabrieldejesus.labadain.com)
+- **Nome do Docente:** Gabriel de Jesus
 - **Email:** estudante.konsulta@gmail.com
 - **Horário de Atendimento:** –
 - **Gabinete:** –
@@ -51,12 +51,12 @@ Koñesimentu kona-ba algoritmia, estrutura dadus, programasaun, no estatístika.
 
 ## Programa
 
-1. **Módulu 1: Fundamentu IA** kobre konseitu fundamentál ne'ebé relevante ba unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia peskiza, no reprezentasaun koñesimentu. Módulu ida-ne'e ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen bazeia ba dadus.
-2. **Módulu 2: Machine Learning** kobre fundamentu machine learning, inklui introdusaun ba aprendizajen supervizionada, la'ós supervizionada, no reinforcement learning. Sei aborda mós modelu populár sira ba tarefa regresaun, klasifikasaun, no clustering, inklui prátika laboratoriál uza Scikit-learn.
-3. **Módulu 3: Deep Learning** kobre rede neuronál no prosesu treinamentu, inklui backpropagation, no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika atu treina ka adapta (fine-tuning) modelu simples sira.
-4. **Módulu 4: NLP and IA jenerativa** kobre fundamentu prosesamentu linguajen naturál, inklui tokenizasaun, embeddings, no prosesamentu testu. Sei esplika mós arkitektura Transformer model hanesan baze ba large language models (LLMs). Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot, uza abordagem modernu ne'ebé utiliza iha sistema hanesan ChatGPT no Gemini.
-5. **Módulu 5: Sistema IA no Deployment** kobre oinsá atu dezenvolve sistema IA ida, hahú hosi preparasaun dadus to’o implementasaun modelu iha aplikasaun. Foka ba iha dezenvolvimentu aplikasaun IA reál hodi demonstra solusaun prátiku. Estudante sira sei koñese ferramenta no framework sira atu fasilita prototipajen no deploy modelu. Sei inklui mós konseitu fundamentál kona-ba privasidade, étika, no impaktu sosiál.
-6. **Módulu 6: Projetu Finál** estudante sira sei dezenvolve projetu finál ida-ne'ebé integra koñesimentu hotu-hotu ne'ebé aprende tiha ona. Projetu bele inklui chatbot, sistema klasifikasaun imajen, sistema identifikasaun entidades, ka aplikasaun IA seluk. Estudante sira sei halo proposta, implementasaun, no aprezentasaun finál hodi hatudu kapasidade atu dezenvolve sistema IA ne'ebé funsiona iha situasaun reál.
+1. [**Módulu 1: Fundamentu IA**](https://drive.google.com/drive/folders/19WROj_IS6rZVy5D1kbY2CQj-ZYvwq5QB?usp=sharing) kobre konseitu fundamentál ne'ebé relevante ba unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia peskiza, no reprezentasaun koñesimentu. Módulu ida-ne'e ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen bazeia ba dadus.
+2. [**Módulu 2: Machine Learning**](https://drive.google.com/drive/folders/1WGVDYz9MxaI35TJoOMLdRdtYWGLVKNH0?usp=sharing) kobre fundamentu machine learning, inklui introdusaun ba aprendizajen supervizionada, la'ós supervizionada, no reinforcement learning. Sei aborda mós modelu populár sira ba tarefa regresaun, klasifikasaun, no clustering, inklui prátika laboratoriál uza Scikit-learn.
+3. [**Módulu 3: Deep Learning**](https://drive.google.com/drive/folders/1toWzIDLIaRerXG95DangzvREDf36yBfk?usp=share_link) kobre rede neuronál no prosesu treinamentu, inklui backpropagation, no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika atu treina ka adapta (fine-tuning) modelu simples sira.
+4. [**Módulu 4: NLP and IA jenerativa**](https://drive.google.com/drive/folders/1y2TX1R2APlTqjKW_dTc3oj4Ujnyw8rFH?usp=share_link) kobre fundamentu prosesamentu linguajen naturál, inklui tokenizasaun, embeddings, no prosesamentu testu. Sei esplika mós arkitektura Transformer model hanesan baze ba large language models (LLMs). Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot, uza abordagem modernu ne'ebé utiliza iha sistema hanesan ChatGPT no Gemini.
+5. [**Módulu 5: Sistema IA no Deployment**](https://drive.google.com/drive/folders/1QhhxcdUDnOU5d7XnaDltVnwNx-I3koc0?usp=share_link) kobre oinsá atu dezenvolve sistema IA ida, hahú hosi preparasaun dadus to’o implementasaun modelu iha aplikasaun. Foka ba iha dezenvolvimentu aplikasaun IA reál hodi demonstra solusaun prátiku. Estudante sira sei koñese ferramenta no framework sira atu fasilita prototipajen no deploy modelu. Sei inklui mós konseitu fundamentál kona-ba privasidade, étika, no impaktu sosiál.
+6. [**Módulu 6: Projetu Finál**](https://drive.google.com/drive/folders/1mGEB67MsnKIo1oc9otIVPc-Tl0uHQwep?usp=share_link) estudante sira sei dezenvolve projetu finál ida-ne'ebé integra koñesimentu hotu-hotu ne'ebé aprende tiha ona. Projetu bele inklui chatbot, sistema klasifikasaun imajen, sistema identifikasaun entidades, ka aplikasaun IA seluk. Estudante sira sei halo proposta, implementasaun, no aprezentasaun finál hodi hatudu kapasidade atu dezenvolve sistema IA ne'ebé funsiona iha situasaun reál.
 
 ## Métodos de Avaliação
 

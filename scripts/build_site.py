@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BRANCH_HTML_DIR = Path('generated-html')
 SKIP_PARTS = {'.git', '.github', '_site', '__pycache__', '.venv', BRANCH_HTML_DIR.name}
 CSS_SOURCE_REL = Path('assets/css/markdown.css')
+DOSENTE_URL = 'https://gabrieldejesus.labadain.com'
 
 
 def should_skip(path: Path) -> bool:
@@ -88,7 +89,7 @@ def page_template(
       </div>
       <nav class="top-nav" aria-label="Page navigation">
         <a href="{home_href}">Varanda</a>
-        <a href="{nav2_href}">{nav2_label}</a>
+        <a href="{nav2_href}" target="_blank" rel="noreferrer">{nav2_label}</a>
       </nav>
     </div>
   </header>
@@ -128,10 +129,7 @@ def build_output(output_root: Path) -> None:
       rendered = rewrite_root_relative_links(rendered, html_target, output_root)
       css_href = os.path.relpath(output_root / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
       home_href = os.path.relpath(output_root / 'index.html', html_target.parent).replace(os.sep, '/')
-      if path.stem == 'program':
-        nav2_label, nav2_href = 'Silabus', os.path.relpath(output_root / BRANCH_HTML_DIR / 'syllabus.html', html_target.parent).replace(os.sep, '/')
-      else:
-        nav2_label, nav2_href = 'Programa', os.path.relpath(output_root / BRANCH_HTML_DIR / 'program.html', html_target.parent).replace(os.sep, '/')
+      nav2_label, nav2_href = 'Dosente', DOSENTE_URL
       html_target.write_text(
         page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
         encoding='utf-8',
@@ -177,10 +175,7 @@ def build_in_place() -> None:
         rendered = rewrite_root_relative_links(rendered, html_target, ROOT)
         css_href = os.path.relpath(ROOT / CSS_SOURCE_REL, html_target.parent).replace(os.sep, '/')
         home_href = os.path.relpath(ROOT / 'index.html', html_target.parent).replace(os.sep, '/')
-        if path.stem == 'program':
-            nav2_label, nav2_href = 'Silabus', os.path.relpath(branch_root / 'syllabus.html', html_target.parent).replace(os.sep, '/')
-        else:
-            nav2_label, nav2_href = 'Programa', os.path.relpath(branch_root / 'program.html', html_target.parent).replace(os.sep, '/')
+        nav2_label, nav2_href = 'Dosente', DOSENTE_URL
         html_target.write_text(
             page_template(page_title, rendered, css_href, home_href, nav2_label, nav2_href),
             encoding='utf-8',
