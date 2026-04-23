@@ -76,7 +76,7 @@ Ekpozisaun no interasaun iha sala-aula teórika hodi aborda konteúdu programát
 
 ## Referências Bibliográficas
 
-- Russell, S., & Norvig, P. Artificial Intelligence: A Modern Approach (4th ed.). Pearson.
+- Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.
 - Raschka, S., et al. (2022). Machine learning with PyTorch and scikit-learn: Develop machine learning and deep learning models with Python (1st ed.). Packt Publishing.
 - Raschka, S. (2024). Build a large language model (from scratch). Manning Publications.
 - Jurafsky, D., & Martin, J. H. (2026). Speech and language processing: An introduction to natural language processing, computational linguistics, and speech recognition with language models (3rd ed.). Online manuscript released January 6, 2026. [https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/)
