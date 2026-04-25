@@ -30,7 +30,7 @@ Unidade kurrikulár ida-ne'e aprezenta asuntu nukleár lubuk ida iha área Intel
 
 1. Hasa'e **koñesimentu** kona-ba fundamentu no modelu IA, sistema intelijente, no karakterístika sira-ne'ebé distinge ninia aplikabilidade.
 2. Hasa'e **abilidade** kona-ba dezenvolvimentu no avaliasaun modelu IA sira, inklui ninia implementasaun iha aplikasaun reál hodi rezolve problema komputasionál kompleksa.
-3. Hasa'e **konsiénsia** étika no responsabilidade iha dezenvolvimentu sistema IA ida-ne'ebé seguru no refleta mudansa teknolójika ohin-loron nian.
+3. Hasa'e **konsiénsia** kona-ba étika no responsabilidade iha dezenvolvimentu sistema IA ida-ne'ebé seguru no refleta mudansa teknolójika ohin-loron nian.
 
 ## Resultados de Aprendizagem e Competências
 
@@ -51,7 +51,7 @@ Koñesimentu kona-ba algoritmia, estrutura dadus, programasaun, no estatístika.
 
 ## Programa
 
-1. [**Módulu 1: Fundamentu IA**](https://drive.google.com/drive/folders/19WROj_IS6rZVy5D1kbY2CQj-ZYvwq5QB?usp=sharing) kobre konseitu fundamentál ne'ebé relevante ba unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia peskiza (search), no reprezentasaun koñesimentu. Módulu ida-ne'e ajuda estudante sira komprende diferensa entre abordajen simbóliku no abordajen bazeia ba dadus.
+1. [**Módulu 1: Fundamentu IA**](https://drive.google.com/drive/folders/19WROj_IS6rZVy5D1kbY2CQj-ZYvwq5QB?usp=sharing) kobre konseitu fundamentál ne'ebé relevante ba unidade kurrikulár ida-ne'e, inklui ajente intelijente, algoritmia peskiza (search), no reprezentasaun koñesimentu. Módulu ida-ne'e ajuda estudante sira komprende konseitu fundamentál no evolusaun IA nian.
 2. [**Módulu 2: Machine Learning**](https://drive.google.com/drive/folders/1WGVDYz9MxaI35TJoOMLdRdtYWGLVKNH0?usp=sharing) kobre fundamentu machine learning, inklui introdusaun ba supervised, unsupervised, no reinforcement learning. Sei aborda mós modelu populár sira ba tarefa regresaun, klasifikasaun, no clustering, inklui prátika laboratoriál uza Scikit-learn.
 3. [**Módulu 3: Deep Learning**](https://drive.google.com/drive/folders/1toWzIDLIaRerXG95DangzvREDf36yBfk?usp=share_link) kobre rede neuronál no prosesu treinamentu, inklui backpropagation, no aplikasaun iha área hanesan vizaun komputasionál. Estudante sira sei halo implementasaun prátika atu treina ka adapta (fine-tuning) modelu simples sira.
 4. [**Módulu 4: NLP and IA jenerativa**](https://drive.google.com/drive/folders/1y2TX1R2APlTqjKW_dTc3oj4Ujnyw8rFH?usp=share_link) kobre fundamentu prosesamentu linguajen naturál, inklui tokenizasaun, embeddings, no prosesamentu testu. Sei esplika mós arkitektura Transformer model hanesan baze ba large language models (LLMs). Estudante sira sei aprende uza no dezenvolve aplikasaun generativu hanesan chatbot, uza abordagem modernu ne'ebé utiliza iha sistema hanesan ChatGPT no Gemini.
