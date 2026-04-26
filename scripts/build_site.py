@@ -11,7 +11,7 @@ import markdown
 
 
 ROOT = Path(__file__).resolve().parent.parent
-BRANCH_HTML_DIR = Path('generated-html')
+BRANCH_HTML_DIR = Path('site')
 SKIP_PARTS = {'.git', '.github', '_site', '__pycache__', '.venv', BRANCH_HTML_DIR.name}
 CSS_SOURCE_REL = Path('assets/css/markdown.css')
 DOSENTE_URL = 'https://gabrieldejesus.labadain.com'
